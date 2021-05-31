@@ -8,7 +8,7 @@ void mergeIt(int arr[], int l, int m, int r) {
     int Left[leftArraySize], Right[rightArraySize];
 
     for(i=0; i<leftArraySize; i++) Left[i] = arr[l+i];
-    for(j=0; j<rightArraySize; j++) Right[j]= arr[m+1+j];
+    for(j=0; j<rightArraySize; j++) Right[j]= arr[m+1+j];  //   Merge Sort
     i=j=0; k=l;
 
     while(i< leftArraySize && j< rightArraySize) {
